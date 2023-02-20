@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "designer";
+  src: url(Designer.otf);
+}
+
+body {
+    background-image: url(halllaaaaa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    text-align: center;
+  }
+  
+  #container {
+    margin-top: 32vh; 
+  }
+  div {
+    margin: center;
+    display: inline-block;
+  }
+  
+  h1 {
+    font-family: "designer";
+    font-size: 14px;
+    margin-top: 100px;
+    color: white;
+  }
+  
+  h2 {
+    font-family: "designer";
+    font-size: 14px;
+    margin-top: 100px;
+    color: white;
+  }
+  
+  h3 {
+    font-family: "designer";
+    font-size: 14px;
+    margin-top: 100px;
+    color: white;
+  }
+  
+  button {
+    display: inline-block;
+    background-color: transparent;
+    color: white;
+    border: 2.5px solid #d0ecf8;
+    padding: 10px 20px;
+    font-family: "designer";
+    border-radius: 50px;
+    transition-duration: 0.4s;
+    width: 250px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    box-shadow: 0 2px 0 #d0ecf8 inset, 0 2px 30px 0 #d0ecf8, 0 2px 30px 0 #d0ecf8 inset, 0 2px 30px 0 #d0ecf8;
+  text-shadow: 0 0 5px #d0ecf8; 
+  }
+
+.twt {
+  display:block;
+  margin-top: 10vh;
+}
+
+#twittis {
+  border-radius: 50px;
+  border: 2px solid #d0ecf8;
+  font-family: "designer";
+  font-size: 14px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.3s;
+}
+
+#twittis:hover {
+  box-shadow: 0 1px 0 #d0ecf8 inset, 0 2px 30px 0 #d0ecf8, 0 2px 30px 0 #d0ecf8 inset, 0 2px 30px 0 #d0ecf8;
+  text-shadow: 0 0 5px #d0ecf8; 
+}
+
+#webring {
+  margin-top: 25vh;
+  color: white;
+  font-family: "designer";
+  font-size: 7pt;
+  letter-spacing: 0.3px;
+}
+
+#sss {
+  display: inline-block;
+  color: white;
+  transition-duration: 0.3s;
+}
+
+#sss:hover {
+  text-shadow: 0 2px 0 #d0ecf8 inset, 0 2px 30px 0 #d0ecf8, 0 2px 30px 0 #d0ecf8 inset, 0 2px 30px 0 #d0ecf8;
+  text-shadow: 0 0 5px #d0ecf8; 
+}
